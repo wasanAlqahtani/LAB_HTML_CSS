@@ -1,0 +1,131 @@
+body{
+    background-color:gainsboro;
+    width: 100%; 
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.navigation {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigation a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: #bccdd9;
+  color: white;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    color: darkslategray;
+    text-align:center;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color:darkslategray;
+    border-bottom :2px solid ;
+    margin-top: 40px;
+    margin-bottom: 40 px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+    color:darkslategray;
+    text-align: center;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+a{
+    color:darkslategray
+}
+
+a:hover{
+    color:brown
+}
+
+ul {
+  background-color: #bccdd9;
+  padding: 20px;
+  border-radius: 12px;
+  width: fit-content;
+  margin:auto;
+}
+
+li{
+    font-size: 18px;
+    color:darkslategray;
+    text-align: center;
+    margin:20px;
+
+}
+table{
+    margin:30px auto;
+}
+td,th {
+  border: 1px solid #4674ad;
+  padding: 20px;
+  text-align: center;
+  color:darkslategray;
+  font-size: 20px;
+}
+img{
+  border-radius: 15px;
+  display: block;
+ justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 160px;
+  height: 220px,
+}
+form{
+  margin: 50px auto;
+  text-align: center;
+  background-color: #bccdd9;
+  padding: 50px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+label {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:darkslategray;
+}
+button:hover{
+    background-color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
